@@ -2,8 +2,8 @@ angular.module('workController', [])
 
   .controller('workCtrl', workCtrl);
 
-  workCtrl.$inject = [];
+  workCtrl.$inject = ['$scope'];
 
-  function workCtrl() {
+  function workCtrl($scope) {
     console.log('on the work controller');
   }

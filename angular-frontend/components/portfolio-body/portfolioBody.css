@@ -27,3 +27,33 @@
   margin: 15px auto 0 auto;
   text-align: center;
 }
+
+.half-box {
+  background-color: white;
+  width: 50%;
+  height: 250px;
+  float: left;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+.half-box img {
+  width: 100%;
+  height: auto;
+}
+
+.half-description {
+  width: 90%;
+  font-size: 18px;
+  margin-left: 5%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.half-title {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+}

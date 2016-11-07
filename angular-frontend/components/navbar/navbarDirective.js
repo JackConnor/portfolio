@@ -10,6 +10,9 @@ angular.module('portfolio')
       templateUrl: 'angular-frontend/components/navbar/navbar.html'
       ,link: function(scope, els, attrs){
         console.log(els);
+        scope.toHome = function() {
+          window.location = '/'
+        }
       }
     }
   }

@@ -8,7 +8,7 @@ angular.module('portfolio')
     return {
       templateUrl: 'angular-frontend/components/footer/footer.html'
       ,link: function(scope, els, attrs) {
-        console.log(els);
+
       }
     }
   }
