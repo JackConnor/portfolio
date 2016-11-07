@@ -1,4 +1,4 @@
-angular.module('portfolio', ['ngRoute', 'workController'])
+angular.module('portfolio', ['ngRoute', 'workController', 'blogController', 'skateController'])
 
   .config(appRoutes);
 
@@ -16,7 +16,13 @@ angular.module('portfolio', ['ngRoute', 'workController'])
 
         .when('/blog', {
           templateUrl: 'angular-frontend/templates/blog.html'
-          ,controller: 'workCtrl'
-          ,controllerAs: 'work'
+          ,controller: 'blogCtrl'
+          ,controllerAs: 'blog'
+        })
+
+        .when('/skate', {
+          templateUrl: 'angular-frontend/templates/skateboarding.html'
+          ,controller: 'skateCtrl'
+          ,controllerAs: 'skate'
         })
   }
