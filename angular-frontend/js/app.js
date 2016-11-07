@@ -19,4 +19,3 @@ angular.module('portfolio', ['ngRoute'])
           ,controllerAs: 'work'
         })
   }
-console.log('laksdjflkasdhjflkashjfkljsadhjflkasjdfkl');
