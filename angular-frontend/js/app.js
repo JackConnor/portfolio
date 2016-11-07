@@ -1,10 +1,11 @@
-angular.module('portfolio', ['ngRoute'])
+angular.module('portfolio', ['ngRoute', 'workController'])
 
   .config(appRoutes);
 
   appRoutes.$inject = ['$routeProvider']
 
   function appRoutes ($routeProvider) {
+    // console.log('wot');
 
       $routeProvider
         .when('/', {

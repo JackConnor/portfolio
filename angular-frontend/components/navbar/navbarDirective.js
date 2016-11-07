@@ -5,13 +5,11 @@ angular.module('portfolio')
   navbarDirective.$inject = [];
 
   function navbarDirective() {
+    console.log('dirrrr');
     return {
-      restrict: 'A'
-      ,templateUrl: 'angular-frontend/components/navbar/navbar.html'
+      templateUrl: 'angular-frontend/components/navbar/navbar.html'
       ,link: function(scope, els, attrs){
-        console.log('in the directive');
         console.log(els);
-        console.log(scope);
       }
     }
   }

@@ -4,20 +4,23 @@
   <head>
     <!-- [START css] -->
     <link type="text/css" rel="stylesheet" href="/angular-frontend/components/navbar/navbar.css">
+    <link type="text/css" rel="stylesheet" href="/angular-frontend/components/portfolio-body/portfolioBody.css">
+    <link type="text/css" rel="stylesheet" href="/angular-frontend/components/footer/footer.css">
     <link type="text/css" rel="stylesheet" href="/angular-frontend/style/main.css">
     <!-- [END css] -->
   </head>
   <body ng-app='portfolio'>
-      <div navbar-directive>
-
-      </div>
+      <navbar-directive></navbar-directive>
       <ng-view></ng-view>
+      <foot-directive></foot-directive>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js" charset="utf-8"></script>
     <script src="angular-frontend/js/app.js" charset="utf-8"></script>
     <script src="angular-frontend/js/workController.js" charset="utf-8"></script>
     <script src="angular-frontend/components/navbar/navbarDirective.js" charset="utf-8"></script>
+    <script src="angular-frontend/components/footer/footerDirective.js" charset="utf-8"></script>
+    <script src="angular-frontend/components/portfolio-body/portfolioBodyDirective.js" charset="utf-8"></script>
   </body>
 </html>
 {% endautoescape %}
