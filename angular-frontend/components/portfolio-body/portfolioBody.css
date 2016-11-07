@@ -31,7 +31,7 @@
 .half-box {
   background-color: white;
   width: 50%;
-  height: 250px;
+  height: 100%;
   float: left;
   overflow: hidden;
   padding: 0px;
@@ -41,6 +41,11 @@
 .half-box img {
   width: 100%;
   height: auto;
+}
+
+.half-box-row {
+  width: 100%;
+  height: 250px;
 }
 
 .half-description {
