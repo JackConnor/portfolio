@@ -9,19 +9,19 @@ angular.module('portfolio', ['ngRoute', 'workController', 'blogController', 'ska
 
       $routeProvider
         .when('/', {
-          templateUrl: 'angular-frontend/templates/portfolio.html'
+          templateUrl: 'angular-frontend/components/portfolio-body/portfolioBody.html'
           ,controller: 'workCtrl'
           ,controllerAs: 'work'
         })
 
         .when('/blog', {
-          templateUrl: 'angular-frontend/templates/blog.html'
+          templateUrl: 'angular-frontend/components/blog/blog.html'
           ,controller: 'blogCtrl'
           ,controllerAs: 'blog'
         })
 
         .when('/skate', {
-          templateUrl: 'angular-frontend/templates/skateboarding.html'
+          templateUrl: 'angular-frontend/components/skateboarding/skateboard.html'
           ,controller: 'skateCtrl'
           ,controllerAs: 'skate'
         })
