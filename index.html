@@ -4,24 +4,27 @@
   <head>
     <!-- fonts -- >
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
-    
+
     <!-- [START css] -->
     <link type="text/css" rel="stylesheet" href="/angular-frontend/components/navbar/navbar.css">
     <link type="text/css" rel="stylesheet" href="/angular-frontend/components/portfolio-body/portfolioBody.css">
     <link type="text/css" rel="stylesheet" href="/angular-frontend/components/footer/footer.css">
+    <link type="text/css" rel="stylesheet" href="/angular-frontend/components/blog/blog.css">
     <link type="text/css" rel="stylesheet" href="/angular-frontend/style/main.css">
     <!-- [END css] -->
   </head>
   <body ng-app='portfolio'>
       <navbar-directive></navbar-directive>
-      <ng-view></ng-view>
+      <div class="view-holder">
+        <ng-view></ng-view>
+      </div>
       <foot-directive></foot-directive>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js" charset="utf-8"></script>
     <script src="angular-frontend/js/app.js" charset="utf-8"></script>
     <script src="angular-frontend/js/workController.js" charset="utf-8"></script>
-    <script src="angular-frontend/js/blogController.js" charset="utf-8"></script>
+    <script src="angular-frontend/components/blog/blogController.js" charset="utf-8"></script>
     <script src="angular-frontend/js/skateController.js" charset="utf-8"></script>
     <script src="angular-frontend/components/navbar/navbarDirective.js" charset="utf-8"></script>
     <script src="angular-frontend/components/footer/footerDirective.js" charset="utf-8"></script>

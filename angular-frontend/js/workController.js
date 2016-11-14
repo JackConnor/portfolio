@@ -5,5 +5,5 @@ angular.module('workController', [])
   workCtrl.$inject = ['$scope'];
 
   function workCtrl($scope) {
-    console.log('on the work controller');
+    // console.log('on the work controller');
   }

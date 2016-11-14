@@ -5,5 +5,5 @@ angular.module('skateController', [])
   skateCtrl.$inject = [];
 
   function skateCtrl() {
-    console.log('skate controlling babbbby');
+    // console.log('skate controlling babbbby');
   }

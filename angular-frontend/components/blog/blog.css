@@ -1,0 +1,67 @@
+.article-holder {
+  width: 90%;
+  min-height: 400px;
+  padding: 0 5%;
+}
+
+.article-headline {
+  width: 100%;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.article-headline-image {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.article-headline-image img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.article-image-subtitle {
+  width: 80%;
+  margin: 10px auto 0 auto;
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.article-content {
+  padding-top: 15px;
+}
+
+.article-full-width-paragraph {
+  width: 100%;
+  text-indent: 40px;
+  line-height: 1.4;
+  font-size: 20px;
+  padding: 15px 0 0 0;
+}
+
+.article-half-width-picture {
+  width: 45%;
+  height: 100%;
+  outline: 1px solid green;
+}
+
+.article-half-width-picture img {
+  width: 100%;
+  height: auto;
+}
+
+.article-half-width-content {
+  width: 45%;
+  height: auto;
+  text-indent: 40px;
+  line-height: 1.4;
+  font-size: 20px;
+}
+
+.article-halfsies-row {
+  padding-top: 15px;
+  overflow: hidden;
+}

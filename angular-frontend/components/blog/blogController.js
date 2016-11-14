@@ -5,5 +5,5 @@ angular.module('blogController', [])
   blogCtrl.$inject = [];
 
   function blogCtrl() {
-    console.log('blog controlling');
+    console.log('in the blog');
   }
