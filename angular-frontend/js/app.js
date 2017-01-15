@@ -5,6 +5,7 @@ angular.module('portfolio', ['ngRoute', 'workController', 'blogController', 'ska
   appRoutes.$inject = ['$routeProvider']
 
   function appRoutes ($routeProvider) {
+      // window.location.href = "https://www.linkedin.com/in/jackconnor"
 
       $routeProvider
         .when('/', {
